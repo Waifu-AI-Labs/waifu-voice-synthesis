@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "models": {
+    "sakura": {
+      "file": "sakura_voice.pt",
+      "config": "character_sakura.json",
+      "description": "Sakura voice model"
+    },
+    "yuki": {
+      "file": "yuki_voice.pt",
+      "config": "character_yuki.json",
+      "description": "Yuki voice model"
+    },
+    "rei": {
+      "file": "rei_voice.pt",
+      "config": "character_rei.json",
+      "description": "Rei voice model"
+    },
+    "miku": {
+      "file": "miku_voice.pt",
+      "config": "character_miku.json",
+      "description": "Miku voice model"
+    }
+  }
+}

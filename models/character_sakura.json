@@ -1,0 +1,14 @@
+{
+  "name": "Sakura",
+  "description": "Cheerful and supportive anime girl",
+  "voice_style": "cute",
+  "base_pitch": 1.2,
+  "speaking_rate": 1.0,
+  "energy": 1.1,
+  "accent": "japanese_light",
+  "personality_traits": [
+    "cheerful",
+    "supportive",
+    "gentle"
+  ]
+}

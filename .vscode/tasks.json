@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start Waifu Voice API Server",
+			"type": "shell",
+			"command": "C:/Users/Gafoor/Desktop/waifu-voice-synthesis/.venv/Scripts/python.exe app.py",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Start Waifu Voice API Server (Fixed)",
+			"type": "shell",
+			"command": "C:/Users/Gafoor/Desktop/waifu-voice-synthesis/.venv/Scripts/python.exe app.py",
+			"isBackground": true,
+			"group": "build"
+		}
+	]
+}

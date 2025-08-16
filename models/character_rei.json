@@ -1,0 +1,14 @@
+{
+  "name": "Rei",
+  "description": "Cool and mysterious character",
+  "voice_style": "cool",
+  "base_pitch": 0.9,
+  "speaking_rate": 0.8,
+  "energy": 0.8,
+  "accent": "japanese_subtle",
+  "personality_traits": [
+    "calm",
+    "intelligent",
+    "mysterious"
+  ]
+}

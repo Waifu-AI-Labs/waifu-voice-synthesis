@@ -1,0 +1,45 @@
+{
+  "sample_rate": 22050,
+  "hop_length": 256,
+  "win_length": 1024,
+  "n_fft": 1024,
+  "enable_gpu": true,
+  "cache_enabled": true,
+  "max_cache_size": 100,
+  "default_character": "sakura",
+  "supported_languages": ["en", "ja", "mixed"],
+  "quality_presets": {
+    "low": {
+      "sample_rate": 16000,
+      "quality_factor": 0.6
+    },
+    "medium": {
+      "sample_rate": 22050,
+      "quality_factor": 0.8
+    },
+    "high": {
+      "sample_rate": 44100,
+      "quality_factor": 1.0
+    }
+  },
+  "voice_effects": {
+    "reverb": {
+      "room_size": 0.2,
+      "damping": 0.5,
+      "wet_level": 0.3,
+      "dry_level": 0.7
+    },
+    "chorus": {
+      "rate": 1.5,
+      "depth": 0.2,
+      "feedback": 0.25,
+      "delay": 0.03
+    }
+  },
+  "emotion_sensitivity": 1.0,
+  "japanese_accent_strength": 0.8,
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  }
+}
